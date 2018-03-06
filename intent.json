@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "SynonymsAreIntent",
+      "slots": [
+        {
+          "name": "Word",
+          "type": "AMAZON.LITERAL"
+        }
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+	   {
+      "intent": "AMAZON.StopIntent"
+    },
+	   {
+      "intent": "AMAZON.CancelIntent"
+    } 
+  ]
+}
